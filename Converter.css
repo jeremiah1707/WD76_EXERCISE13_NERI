@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,#FBA1B7,#FFEECC);
+}
+main{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
+
+.title-container{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+label{
+    font-weight: bold;
+}
+
+.amount-container{
+    margin-bottom: 1.3rem;
+}
+
+.amount-container > input[type="number"]{
+    width: 100%;
+    border: 1px solid black;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    outline: 0;
+    border-radius: 0.5rem;
+}
+
+.unit-converter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.select-container > select{
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.middle > i{
+    margin-top: 120%;
+}
+
+.formula-container{
+margin-bottom: 1.4rem;
+}
+
+.formula-container > .title{
+background-color:#FBA1B7;
+color: white;
+font-size: 0.8rem;
+padding: 5px;
+border-radius: 5px;
+}
+
+.formula-container > .content{
+font-size: 0.8rem;
+}
+
+.result-container{
+margin-bottom: 1.5rem;
+}
+
+.result-container > input[type="text"]{
+border: 1px solid black;
+width: 100%;
+padding: 0.6rem;
+margin-top: 0.5rem;
+outline: 0;
+border-radius: 0.5rem;
+}

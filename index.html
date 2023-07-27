@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Converter.css">
+    <title>Length Converter</title>
+</head>
+
+<body>
+    <main>
+        <div class="title-container">
+            <h2>Length Converter</h2>
+        </div>
+
+        <div class="amount-container">
+            <label for="amount">Enter Amount</label>
+            <input type="number" name="amount" id="amount">
+        </div>
+
+        <div class="unit-converter">
+            <div class="left">
+                <p>From</p>
+                <div class="select-container">
+                    <select name="from" id="from">
+                        <option value="centimeter">centimeter</option>
+                      
+                    </select>
+                </div>
+            </div>
+
+            <div class="middle">
+                <i class="fa-solid fa-gear" style="font-size: 24px;"></i>
+            </div>
+
+            <div class="right">
+                <p>To</p>
+                <div class="select-container to">
+                    <select name="to" id="to">
+                        <option value="centimeter">centimeter</option>
+                   
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="formula-container">
+            <span class="title">Formula</span>
+            <span class="content"><i class="fa-solid fa-magnifying-glass" style="position: relative;left: 0.5rem;"></i></span>
+        </div>
+
+        <div class="result-container">
+            <label for="result">Result</label>
+            <input type="text" name="result" id="result">
+        </div>
+
+        
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="Converter.js"></script>
+</body>
+
+</html>
